@@ -1,5 +1,26 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+
+.container {
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+  flex-direction: column;
+}
+
+table {
+  font-size: 24px;
+  border-width: 1px;
+  border-color: gray;
+}
+
+.modal {
+  display: flex;
+  position: absolute;
+  top: 24px;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
 }
 
 .App-logo {
@@ -36,3 +57,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
